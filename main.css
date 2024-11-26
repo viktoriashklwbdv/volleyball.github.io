@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header {
+  background-color: #0056b3;
+  color: white;
+  padding: 10px;
+  width: 100%;
+}
+header h1 {
+  font-size: 24px;
+  margin: 0;
+  text-align: center;
+}
+header nav ul {
+  list-style: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+header nav ul li {
+  margin-right: 15px;
+}
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  margin: 20px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+section h2 {
+  color: #0056b3;
+  font-size: 18px;
+}
+section p {
+  margin: 10px 0;
+}
+section img,
+section video {
+  width: 33.33%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+section table {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+section table th, section table td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+section table th {
+  background-color: #f0f0f0;
+}
+
+footer {
+  background-color: #0056b3;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
